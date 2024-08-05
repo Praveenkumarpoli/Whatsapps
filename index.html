@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 100px;
+        }
+        .container{
+            width: 60%;
+            height: 70vh;
+            border: 2px solid;
+            border-radius: 20px;
+            background-image: url(./vpk.jpg);
+            background-position: center;
+            background-size:cover ;
+            background-repeat: no-repeat;
+        }
+        .box1{
+            width: 100%;
+            background-color: rgb(13, 18, 18);
+            border-top-left-radius: 18px;
+            border-top-right-radius: 18px;
+            color: aliceblue;
+        }
+        .bx img{
+            width: 100%;
+            border-top-left-radius: 18px;
+            border-top-right-radius: 18px;
+        }
+        .box2{
+            width: 100%;
+            height:50% ;
+            color: aliceblue;
+        }
+        .box2 a{
+            width: 30%;
+            text-decoration: none;
+            color: white;
+        }
+        .bx1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 80%;
+        }
+        #inpt{
+            width: 60%;
+            height: 3vh;
+            border: none;
+            border-radius: 10px;
+            opacity: 0.6;
+            text-align: center;
+        }
+        button{
+            background-color: rgb(53, 52, 50);
+            width: 17%;
+            height: 5.8vh;
+            border-radius: 50%;
+        }
+        .bx1 a{
+            font-size: x-large;
+        }
+        #fg{
+            margin-top: 12vh;
+        }
+        @media screen and (min-width:600px) {
+            .container{
+                width: 20%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <div class="bx">
+                <img src="./time.jpg">
+            </div>
+        </div>
+        <div class="box2">
+           <div class="bx1">
+            <input type="password" placeholder="password" id="inpt"><br>
+            <button><a href="./index1.html"><ion-icon name="lock-open-outline"></ion-icon></a></button>
+            <button id="fg"><a href="#"><ion-icon name="finger-print-outline"></ion-icon></a></button>
+        </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

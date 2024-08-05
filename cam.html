@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 100px;
+        }
+        .container{
+            width: 60%;
+            height: 70vh;
+            border: 2px solid;
+            border-radius: 20px;
+        }
+        .pkr{
+            width: 100%;
+            height: 100%;
+            background-image: url(./mon.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 20px;
+        }
+        @media screen and (min-width:500px) {
+            .container{
+                width: 20%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="pkr">
+            </div>
+    </div>
+</body>
+</html>

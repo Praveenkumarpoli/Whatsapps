@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 100px;
+        }
+        .container{
+            width: 60%;
+            height: 70vh;
+            border: 2px solid;
+            border-radius: 20px;
+        }
+        .box1{
+            width: 100%;
+            height: 18%;
+            background-color: rgb(13, 18, 18);
+            border-top-left-radius: 18px;
+            border-top-right-radius: 18px;
+            color: aliceblue;
+        }
+        .bx img{
+            width: 100%;
+            border-top-left-radius: 18px;
+            border-top-right-radius: 18px;
+        }
+        .bx1{
+            display: flex;
+            justify-content: space-between;
+        }
+        #text{
+            font-weight: 700;
+        }
+        #icon a{
+            text-decoration: none;
+            color: white;
+            padding: 4px;
+        }
+        #inp{
+            width: 97%;
+            height: 26%;
+            margin-left: 2px;
+            border-radius: 20px;
+            border: none;
+            text-align: center;
+        }
+        .box2{
+            height: 67%;
+            overflow: scroll;
+            scrollbar-width: none;
+        }
+        .box2 a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .box2 div{
+            background-color: rgb(54, 78, 78);
+            height: 20%;
+        }
+
+        .box2 img{
+            width: 17%;
+            height: 43px;
+            border-radius: 50%;
+        }
+
+        .cht22{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            padding-left: 55px;
+            padding-bottom: 10px;
+        }
+
+        #sa{
+            font-size: x-small;
+            padding-right: 90px;
+        }
+        #tm{
+            font-size: x-small;
+        }
+
+        .box3{
+            width: 100%;.
+            height: 15%;
+            background-color: rgb(13, 18, 18);
+            border-bottom-left-radius: 18px;
+            border-bottom-right-radius: 18px;
+        }
+        #pk{
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 8px;
+        }
+
+        #pk a{
+            font-size: x-large;
+            color: white;
+        }
+
+        .bx32{
+            display: flex;
+            justify-content: space-evenly;
+            padding-left: 12px;
+            color: white;
+            font-size: small;
+        }
+        .box33 a{
+            font-size: large;
+            color: white;
+        }
+        .box33{
+            
+            display: flex;
+            justify-content: space-evenly;
+            padding-left: 12px;
+            color: white;
+            font-size: small;
+        }
+
+        @media screen and (min-width:600px) {
+            .container{
+                width: 20%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <div class="bx">
+                <img src="./time.jpg">
+            </div>
+            <div class="bx1">
+                <span id="text">WhatsApp</span>
+                <span id="icon">
+                <a href="#"><ion-icon name="qr-code-outline"></ion-icon></a>
+                <a href="#"><ion-icon name="camera-outline"></ion-icon></a>
+                <a href="#"><ion-icon name="ellipsis-vertical-outline"></ion-icon></a>
+                </span>
+            </div>
+            <input type="text" id="inp" placeholder="Search chesi vethuko bro">
+        </div>
+        <div class="box2">
+        <a href="./rgvs.html" ><div class="cht1"><div class="cht21"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/RamGopalVarma.jpg"></div>
+            <div class="cht22">
+                <span>RGV garu</span>
+                <div class="cht221"><span id="sa">Enduku call chasav ra </span><span id="tm">11:59pm</span></div>
+            </div>
+            </div></a>
+        <a href="./snehas.html"> <div class="cht2">
+            <div class="cht21"><img src="https://www.behindwoods.com/tamil-movies-cinema-news-16/images/snehas-fight-scene-video-from-dhanushs-pattas-photos-pictures-stills.jpg"></div>
+            <div class="cht22">
+                <span>Sneha Aunty</span>
+                <div class="cht221"><span id="sa">Repu call chestha raa</span><span id="tm">06:03pm</span></div>
+            </div>
+            </div>
+        </a>
+        <a href="./nithas.html"> <div class="cht3"><div class="cht21"><img src="https://images.filmibeat.com/img/popcorn/profile_photos/sravani-20200909121903-8560.jpg"></div>
+            <div class="cht22">
+                <span>Srav's</span>
+                <div class="cht221"><span id="sa">Repu vc call chestha </span><span id="tm">06:34pm</span></div>
+            </div></div></a>
+        <a href="./mukesh.html"><div class="cht4"><div class="cht21"><img src="https://imageio.forbes.com/specials-images/imageserve/5c7d7829a7ea434b351ba0b6/0x0.jpg?format=jpg&crop=1837,1839,x206,y250,safe&height=416&width=416&fit=bounds"></div>
+            <div class="cht22">
+                <span>Mukesh Bhabai</span>
+                <div class="cht221"><span id="sa">Repu vc call chestha </span><span id="tm">08:56pm</span></div>
+            </div></div></a>
+        <a href="./gates.html"><div class="cht5"><div class="cht21"><img src="https://pbs.twimg.com/profile_images/1674815862879178752/nTGMV1Eo_400x400.jpg"></div>
+            <div class="cht22">
+                <span>Bill Bro</span>
+                <div class="cht221"><span id="sa">Repu vc call chestha </span><span id="tm">09:47pm</span></div>
+            </div></div></a>
+        <a href="./sakuni.html"> <div class="cht6"><div class="cht21"><img src="https://qph.cf2.quoracdn.net/main-qimg-ae3a32d608d86d6afe7d666dd1ec2cc9-lq"></div>
+            <div class="cht22">
+                <span>Universal Mawa</span>
+                <div class="cht221"><span id="sa">Repu vc call chestha </span><span id="tm">12:28pm</span></div>
+            </div></div></a>
+        <a href="./karna.html"> <div class="cht7"><div class="cht21"><img src="https://cdn11.bigcommerce.com/s-x49po/images/stencil/800w/products/86234/143785/LittleKarnaWarriorMahabharataCollectionVimanika_na_834_63-673-677-1688_1000X1510_72__61692.1655536455.jpg?c=2"></div>
+            <div class="cht22">
+                <span>Lord Karna</span>
+                <div class="cht221"><span id="sa">Repu vc call chestha </span><span id="tm">01:34pm</span></div>
+            </div></div></a>
+        <a href="./duryodhan.html"> <div class="cht9"><div class="cht21"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-W8L0aUepVu3l2gkkAuZ2Q4LLeYy_PE_yCg&s"></div>
+            <div class="cht22">
+                <span>Duryodhana🫂</span>
+                <div class="cht221"><span id="sa">Repu vc call chestha </span><span id="tm">03:35Am</span></div>
+            </div></div></a>
+        <a href="./adipetimacha.html"> <div class="cht9"><div class="cht21"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeJAgq024f3y0P9BOMU2MPDKZ9zrKLvH2dA&s"></div>
+            <div class="cht22">
+                <span>Agipeti Macha</span>
+                <div class="cht221"><span id="sa">Repu vc call chestha </span><span id="tm">10:43pm</span></div>
+            </div></div></a>
+        <a href="./pangagos.html"> <div class="cht10"><div class="cht21"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw0ECdXfy_e6-xRTjw35I2RV9bvNa9saCGUw&s"></div>
+            <div class="cht22">
+                <span>Pandagoo</span>
+                <div class="cht221"><span id="sa">Repu vc call chestha </span><span id="tm">09:21pm</span></div>
+            </div></div></a>
+        </div>
+        <div class="box3">
+            <div class="bx3">
+                <span id="pk">
+                    <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="radio-button-on-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="people-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="call-outline"></ion-icon></a>
+                </span>
+                <div class="bx32">
+                    <span>Chats</span><span>Updates</span><span>Communities</span><span>Calls</span>
+                </div>
+                <div class="box33">
+                    <a href="./index1.html"><ion-icon name="home-outline"></ion-icon></a>
+                    <a href="./index1.html"><ion-icon name="arrow-back-circle"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

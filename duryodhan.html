@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 100px;
+            margin: 0%;
+        }
+        .container{
+            width: 60%;
+            height: 70vh;
+            border: 2px solid;
+            border-radius: 20px;
+            box-sizing: border-box;
+        }
+        .box1{
+            width: 100%;
+            height: 16%;
+            background-color: rgb(13, 18, 18);
+            border-top-left-radius: 18px;
+            border-top-right-radius: 18px;
+            color: aliceblue;
+        }
+        .bx img{
+            width: 100%;
+            border-top-left-radius: 18px;
+            border-top-right-radius: 18px;
+        }
+        .bx1{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 5px;
+        }
+        #text{
+            font-weight: 700;
+            padding-top: 5px;
+            padding-right: 5px;
+        }
+        #text a{
+            text-decoration: none;
+            color: white;
+            font-size: large;
+        }
+        .bx11{
+            display: flex;
+            gap: 5px;
+        }
+        .bx11 img{
+            width: 25%;
+            height: 35px;
+            border-radius: 50%;
+        }
+        .bxa span{
+            font-size: medium;
+        }
+        .bxa{
+            padding-top: 7px;
+        }
+        .bx12{
+            display: flex;
+            justify-content: space-evenly;
+            gap: 7px;
+            padding-top: 5px;
+        }
+        .bx12 a{
+            text-decoration: none;
+            color: white;
+        }
+        #icon a{
+            text-decoration: none;
+            color: white;
+            padding: 4px;
+        }
+        .box2{
+            height: 72%;
+            overflow:scroll;
+            scrollbar-width: none;
+            line-height: 2  ;
+            display: flex;
+            flex-direction: column;
+            background-image: url(./bgm.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+        }
+       .fix{
+        position: sticky;
+            top: 5%;
+            left: 45%;
+            background-color: black;
+            color: white;
+            width: fit-content;
+            border-radius: 6px;
+            line-height: 1.7;
+       }
+        .bx21{
+            margin-top: 20px;
+            margin-right: 5px;
+            background-color: rgb(209, 215, 213);
+            border-radius: 10px;
+            border-top-right-radius: 0%;
+            align-self:end ;
+            width: fit-content;
+            background-color: rgb(101, 149, 149);
+
+        }
+        .bx21 ion-icon{
+            padding-top: 9px;
+        }
+        .bx22{
+            margin-left: 5px;
+            background-color: rgb(209, 215, 213);
+            border-radius: 10px;
+            border-top-left-radius: 0%;
+            align-content: center;
+            align-self:start ;
+            width: fit-content;
+        } 
+        .box3{
+            width: 100%;
+            height: 12%;
+            background-color: rgb(13, 18, 18);
+            border-bottom-left-radius: 18px;
+            border-bottom-right-radius: 18px;
+        }
+        .bo{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .bx31 a{
+           text-decoration: none;
+           color: white; 
+           font-size: x-large;
+           padding: 7px;
+        }
+        .bx32{
+            padding-top: 7px;
+        }
+        .bx32 input{
+            height: 23px;
+            border-radius: 20px;
+            border: none;
+            width: 95%;
+        }
+        .bx33 a{
+            text-decoration: none;
+            font-size: x-large;
+            color: white;
+            padding-right: 6px;
+        }
+        .box34 a{
+            font-size: large;
+            color: white;
+        }
+        .box34{
+            
+            display:flex;
+            justify-content: space-evenly;
+            padding-left: 12px;
+            padding-top: 5px;
+            color: white;
+            font-size: small;
+        }
+        @media screen and (min-width:600px) {
+            .container{
+                width: 20%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <div class="bx">
+                <img src="./time.jpg">
+            </div>
+            <div class="bx1">
+                <div class="bx11">
+                    <span id="text"><a href="./babe.html"><ion-icon name="arrow-back-outline"></ion-icon></a></span>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-W8L0aUepVu3l2gkkAuZ2Q4LLeYy_PE_yCg&s">
+                    <div class="bxa">
+                        <span>Sneha Aunty</span>
+                    </div>
+                </div>
+                <div class="bx12">
+                <a href="#"><ion-icon name="camera"></ion-icon></a>
+                <a href="#"><ion-icon name="call-outline"></ion-icon></a>
+                <a href="#"><ion-icon name="ellipsis-vertical-outline"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="fix">june5</div>
+            <div class="bx22">Prathi chat open <br> avudhi bro</div>
+            <div class="bx21">Hi<ion-icon name="checkmark-done-outline"></ion-icon></div> 
+            <div class="bx22">Chappu</div>
+            <div class="bx22">Mitrama</div>
+            <div class="bx21">Alsyam indha mitrama<ion-icon name="checkmark-done-outline"></ion-icon></div>
+            <div class="bx22">Ledhu mitrama</div>
+            <div class="bx21">Em chasthunav mitrama<ion-icon name="checkmark-done-outline"></ion-icon></div>
+            <div class="bx22">Thintuna mitrama</div>
+            <div class="bx21">sare ipoyaka call chai mitrama<ion-icon name="checkmark-done-outline"></ion-icon></div>
+            <div class="bx22">ok mitrama</div>
+            <div class="bx21">Inka mitrama<ion-icon name="checkmark-done-outline"></ion-icon></div>
+            <div class="bx22">Em le mitrama</div>
+            <div class="fix">Today</div>
+            <div class="bx21">a roju nuvu endhuku<ion-icon name="checkmark-done-outline"></ion-icon></div> 
+            <div class="bx21">Duram ga unav mitrama<ion-icon name="checkmark-done-outline"></ion-icon></div> 
+            <div class="bx22">Adhi devudu adina ata</div>
+            <div class="bx22">Manam prakshkulam</div>
+            <div class="bx21">ayina pehh<ion-icon name="checkmark-done-outline"></ion-icon></div>
+            <div class="bx22">Sry mitrama</div>
+            <div class="bx21">OK👍🏿<ion-icon name="checkmark-done-outline"></ion-icon></div>
+            <div class="bx22">Inkem</div>
+            <div class="bx21">Ntg nidra povali byee<ion-icon name="checkmark-done-outline"></ion-icon></div>
+            <div class="bx22">ok bye mitrama</div>
+            <div class="bx21">Gn<ion-icon name="checkmark-done-outline"></ion-icon></div>
+            <div class="bx22">Gn take care</div>
+            <div class="bx21">U to<ion-icon name="checkmark-done-outline"></ion-icon></div>
+        </div>
+        <div class="box3">
+            <div class="bo"><div class="bx31"><a href="#"><ion-icon name="camera-outline"></ion-icon></a></div>
+            <div class="bx32">
+                <input type="text" placeholder="Message Cheyagalava">
+            </div>
+            <div class="bx33"><a href="#"><ion-icon name="mic"></ion-icon></a></div></div>
+            <div class="box34">
+                <a href="./index1.html"><ion-icon name="home-outline"></ion-icon></a>
+                <a href="./babe.html"><ion-icon name="arrow-back-circle"></ion-icon></a>
+            </div>  
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
